@@ -1,11 +1,14 @@
 package com.employeedetails;
 
 public class employeedetails {
+	public static final  int Is_Present=1;
+		public static final int Is_Part_Time=2;
+			public static final int Sal_Per_Hr=20;
+
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Welcome to Employee Wage Computation Program on Master Branch");
-		int Sal_Per_Hr=20;
 		int Emp_Hr=0;
 		int Total = 0;
 		int Days = 0;
