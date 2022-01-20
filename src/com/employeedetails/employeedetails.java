@@ -13,7 +13,7 @@ public class employeedetails {
 		int Total = 0;
 		int Days = 0;
 		int Work_Hr = 0;
-		while(Days<=20)
+		while(Days<20)
 		{
 		int emp = (int) Math.floor(Math.random() * 10) %  3;
 		switch(emp) { 
