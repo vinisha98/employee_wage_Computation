@@ -1,11 +1,13 @@
 package com.employeedetails;
 
 public class employeedetails {
+	public static final  int Is_Present=1;
+		public static final int Is_Part_Time=2;
+			public static final int Sal_Per_Hr=20;
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Welcome to Employee Wage Computation Program on Master Branch");
-		int Sal_Per_Hr=20;
 		int Emp_Hr=0;
 		int Total = 0;
 		int Days = 0;
@@ -14,10 +16,10 @@ public class employeedetails {
 		{
 		int emp = (int) Math.floor(Math.random() * 10) %  3;
 		switch(emp) { 
-			case 1:
+			case Is_Present:
 				Emp_Hr=8;
 				break;
-			case 2:
+			case Is_Part_Time:
 				Emp_Hr=4;
 				break;
 			default:
