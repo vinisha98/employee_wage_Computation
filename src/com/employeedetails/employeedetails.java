@@ -1,13 +1,14 @@
 package com.employeedetails;
 
 public class employeedetails {
+	public static final  int Is_Present=1;
+		public static final int Is_Part_Time=2;
+			public static final int Sal_Per_Hr=20;
+
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Welcome to Employee Wage Computation Program on Master Branch");
-		int Is_Present=1;
-		int Is_Part_Time=2;
-		int Sal_Per_Hr=20;
 		int Work_Hr=0;
 		int emp = (int) Math.floor(Math.random() * 10) %  3;
 		switch(emp) { 
