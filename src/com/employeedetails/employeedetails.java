@@ -10,34 +10,29 @@ public class employeedetails {
 		int Total = 0;
 		int Days = 0;
 		int Work_Hr = 0;
-		while(Days<21 && Work_Hr<100)
+		while(Days<=21 && Work_Hr<=100) 
 		{
 		int emp = (int) Math.floor(Math.random() * 10) %  3;
 		switch(emp) { 
 			case 1:
-				System.out.println("Employee is present");
 				Emp_Hr=8;
 				break;
 			case 2:
-				System.out.println("Employee is parttimer");
 				Emp_Hr=4;
 				break;
 			case 3:
-				System.out.println("Employee is absent");
 				Emp_Hr=0;
 				break;
 			default:
-				System.out.println("contition doesnot exit");
+				
 		}
-		System.out.println("total working days will be");
-		System.out.println(Days);
-		System.out.println("total working hours will be");
-		System.out.println(Work_Hr);
+		System.out.println("total working days will be: " + Days);
+		System.out.println("total working hours will be: " + Work_Hr);
 		int Daily_Wage= (Sal_Per_Hr * Emp_Hr);
 		Total= (Total+Daily_Wage);
 		Days=(Days+1);
 		Work_Hr=(Work_Hr+Emp_Hr);
-		System.out.println("totalsalary will be");
+		System.out.println("totalsalary will be: " + Total);
 		System.out.println(Total);
 		}
 	}
