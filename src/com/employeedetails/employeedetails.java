@@ -7,11 +7,12 @@ public class employeedetails {
 		System.out.println("Welcome to Employee Wage Computation Program on Master Branch");
 		int Is_Full_Time=1;
 		double emp = Math.floor(Math.random() * 10) %  2;
-		if (emp == 	Is_Full_Time)
+		if (emp == 	Is_Full_Time){
 		System.out.println("Employee is present");
-		else
+		}
+		else{
 		System.out.println("Employee is absent");
-
+		}
 	}
 
 }
